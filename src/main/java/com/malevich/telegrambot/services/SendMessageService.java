@@ -19,6 +19,7 @@ public class SendMessageService {
         this.messageSender = messageSender;
     }
 
+    /*      Methods to test buttons and them styles
     public void testStyle(Message message) {
         SendMessage message1 = SendMessage.builder()
                 .text("<b> Bold </b>" +
@@ -64,5 +65,7 @@ public class SendMessageService {
         sendMessage.setChatId(String.valueOf(message.getChatId()));
         sendMessage.setReplyMarkup(markup);
         messageSender.sendMessage(sendMessage);
+
     }
+     */
 }
